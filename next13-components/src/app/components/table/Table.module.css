@@ -1,0 +1,58 @@
+.top_content {
+  @apply flex flex-col gap-4;
+}
+
+.top_header {
+  @apply relative py-4 shadow-2xl flex items-center justify-center bg-amber-600;
+}
+.top_title {
+  @apply text-secondary text-left px-3 text-lg bg-red-800;
+}
+
+.search {
+  @apply sm:max-w-[44%] p-2 text-lg outline-none items-center mx-auto bg-black;
+}
+
+.table_setting {
+  @apply flex justify-between items-center gap-3;
+}
+
+.total {
+  @apply text-black text-small ml-4;
+}
+
+.table_add {
+  @apply flex flex-grow ml-2;
+}
+
+.table_filters {
+  @apply flex items-center gap-2;
+}
+
+.rows {
+  @apply flex items-center text-default-400 text-small;
+}
+
+.rows_select {
+  @apply bg-transparent outline-none text-default-400 text-small;
+}
+
+.lower_content {
+  @apply py-2 px-2 flex justify-between items-center relative bg-slate-600;
+}
+
+.pagination {
+  @apply hidden sm:flex w-[30%] justify-end gap-2;
+}
+
+.table_content {
+  @apply h-screen bg-lime-500;
+}
+
+.table_header {
+  @apply bg-teal-400;
+}
+
+.table_body {
+  @apply bg-purple-400;
+}
